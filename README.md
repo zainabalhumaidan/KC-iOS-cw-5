@@ -30,7 +30,7 @@
 
 
 
-```bash
+```swift
 Type varibleName = value 
 قيمة المتغير    اسم المتغير   النوع
 ```
@@ -44,7 +44,7 @@ Casting
 
 
 
-```bash
+```swift
 let myInt = 5
 var myDouble = Double(myInt) + 5.0
 
@@ -62,7 +62,7 @@ print("Result = \(myDouble)")
 
 
 
-```bash
+```swift
 print("")
 ```
 
