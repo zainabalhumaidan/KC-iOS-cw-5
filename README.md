@@ -35,26 +35,10 @@ Type varibleName = value
 قيمة المتغير    اسم المتغير   النوع
 ```
 
-<p dir="rtl">
-Casting
-</p>
-
-<p dir="rtl">
-طريقة طباعة الجملة</p>
-
-
-
-```swift
-let myInt = 5
-var myDouble = Double(myInt) + 5.0
-
-print("Result = \(myDouble)")
-
-```
 
 <p dir="rtl">
 
-طباعة الجملة
+طبع الجملة
 
 <p dir="rtl">
 طريقة طباعة الجملة</p>
@@ -103,5 +87,4 @@ print("")
 
 
 
-3. قم بتعريف Int & Double 
-4. قم بتحويل int إلى Double واجمعهم 4. قم بتحويل int إلى Double واجمعهم 
+3. قم بتعريف Int & Double  
