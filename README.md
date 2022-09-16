@@ -33,9 +33,6 @@
 <p dir="rtl">
 <strong>ملاحظة</strong> ✨: على الأقل يجب عرض ٥ عناصر.</p>
 
-<p dir="rtl">
-<img src="/cw2-2.gif" width="200" alt="alt_text" title="image_tooltip">
-</p>
 
 <br>
 <p dir="rtl">
