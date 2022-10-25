@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE2526A3290442520082D653 /* day_5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2526A2290442520082D653 /* day_5App.swift */; };
-		BE2526A5290442520082D653 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2526A4290442520082D653 /* ContentView.swift */; };
-		BE2526A7290442540082D653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2526A6290442540082D653 /* Assets.xcassets */; };
-		BE2526AA290442540082D653 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2526A9290442540082D653 /* Preview Assets.xcassets */; };
+		BE2526BF2906A9080082D653 /* tryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2526BE2906A9080082D653 /* tryApp.swift */; };
+		BE2526C12906A9080082D653 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2526C02906A9080082D653 /* ContentView.swift */; };
+		BE2526C32906A90F0082D653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2526C22906A90F0082D653 /* Assets.xcassets */; };
+		BE2526C62906A90F0082D653 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2526C52906A90F0082D653 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BE25269F290442520082D653 /* day 5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "day 5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE2526A2290442520082D653 /* day_5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day_5App.swift; sourceTree = "<group>"; };
-		BE2526A4290442520082D653 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BE2526A6290442540082D653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BE2526A9290442540082D653 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BE2526AB290442540082D653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2526BB2906A9080082D653 /* try.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = try.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2526BE2906A9080082D653 /* tryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryApp.swift; sourceTree = "<group>"; };
+		BE2526C02906A9080082D653 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE2526C22906A90F0082D653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE2526C52906A90F0082D653 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE2526C72906A90F0082D653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BE25269C290442520082D653 /* Frameworks */ = {
+		BE2526B82906A9080082D653 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE252696290442520082D653 = {
+		BE2526B22906A9080082D653 = {
 			isa = PBXGroup;
 			children = (
-				BE2526A1290442520082D653 /* day 5 */,
-				BE2526A0290442520082D653 /* Products */,
+				BE2526BD2906A9080082D653 /* try */,
+				BE2526BC2906A9080082D653 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BE2526A0290442520082D653 /* Products */ = {
+		BE2526BC2906A9080082D653 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE25269F290442520082D653 /* day 5.app */,
+				BE2526BB2906A9080082D653 /* try.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE2526A1290442520082D653 /* day 5 */ = {
+		BE2526BD2906A9080082D653 /* try */ = {
 			isa = PBXGroup;
 			children = (
-				BE2526A2290442520082D653 /* day_5App.swift */,
-				BE2526A4290442520082D653 /* ContentView.swift */,
-				BE2526A6290442540082D653 /* Assets.xcassets */,
-				BE2526AB290442540082D653 /* Info.plist */,
-				BE2526A8290442540082D653 /* Preview Content */,
+				BE2526BE2906A9080082D653 /* tryApp.swift */,
+				BE2526C02906A9080082D653 /* ContentView.swift */,
+				BE2526C22906A90F0082D653 /* Assets.xcassets */,
+				BE2526C72906A90F0082D653 /* Info.plist */,
+				BE2526C42906A90F0082D653 /* Preview Content */,
 			);
-			path = "day 5";
+			path = try;
 			sourceTree = "<group>";
 		};
-		BE2526A8290442540082D653 /* Preview Content */ = {
+		BE2526C42906A90F0082D653 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				BE2526A9290442540082D653 /* Preview Assets.xcassets */,
+				BE2526C52906A90F0082D653 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,38 +72,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE25269E290442520082D653 /* day 5 */ = {
+		BE2526BA2906A9080082D653 /* try */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE2526AE290442540082D653 /* Build configuration list for PBXNativeTarget "day 5" */;
+			buildConfigurationList = BE2526CA2906A90F0082D653 /* Build configuration list for PBXNativeTarget "try" */;
 			buildPhases = (
-				BE25269B290442520082D653 /* Sources */,
-				BE25269C290442520082D653 /* Frameworks */,
-				BE25269D290442520082D653 /* Resources */,
+				BE2526B72906A9080082D653 /* Sources */,
+				BE2526B82906A9080082D653 /* Frameworks */,
+				BE2526B92906A9080082D653 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "day 5";
-			productName = "day 5";
-			productReference = BE25269F290442520082D653 /* day 5.app */;
+			name = try;
+			productName = try;
+			productReference = BE2526BB2906A9080082D653 /* try.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BE252697290442520082D653 /* Project object */ = {
+		BE2526B32906A9080082D653 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					BE25269E290442520082D653 = {
+					BE2526BA2906A9080082D653 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = BE25269A290442520082D653 /* Build configuration list for PBXProject "day 5" */;
+			buildConfigurationList = BE2526B62906A9080082D653 /* Build configuration list for PBXProject "try" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,42 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = BE252696290442520082D653;
-			productRefGroup = BE2526A0290442520082D653 /* Products */;
+			mainGroup = BE2526B22906A9080082D653;
+			productRefGroup = BE2526BC2906A9080082D653 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE25269E290442520082D653 /* day 5 */,
+				BE2526BA2906A9080082D653 /* try */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BE25269D290442520082D653 /* Resources */ = {
+		BE2526B92906A9080082D653 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE2526AA290442540082D653 /* Preview Assets.xcassets in Resources */,
-				BE2526A7290442540082D653 /* Assets.xcassets in Resources */,
+				BE2526C62906A90F0082D653 /* Preview Assets.xcassets in Resources */,
+				BE2526C32906A90F0082D653 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BE25269B290442520082D653 /* Sources */ = {
+		BE2526B72906A9080082D653 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE2526A5290442520082D653 /* ContentView.swift in Sources */,
-				BE2526A3290442520082D653 /* day_5App.swift in Sources */,
+				BE2526C12906A9080082D653 /* ContentView.swift in Sources */,
+				BE2526BF2906A9080082D653 /* tryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BE2526AC290442540082D653 /* Debug */ = {
+		BE2526C82906A90F0082D653 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		BE2526AD290442540082D653 /* Release */ = {
+		BE2526C92906A90F0082D653 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,70 +262,70 @@
 			};
 			name = Release;
 		};
-		BE2526AF290442540082D653 /* Debug */ = {
+		BE2526CB2906A90F0082D653 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"day 5/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"try/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "day 5/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				INFOPLIST_FILE = try/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alhumaidan.day-5";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alhumaidan.try;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BE2526B0290442540082D653 /* Release */ = {
+		BE2526CC2906A90F0082D653 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"day 5/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"try/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "day 5/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				INFOPLIST_FILE = try/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alhumaidan.day-5";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alhumaidan.try;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE25269A290442520082D653 /* Build configuration list for PBXProject "day 5" */ = {
+		BE2526B62906A9080082D653 /* Build configuration list for PBXProject "try" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE2526AC290442540082D653 /* Debug */,
-				BE2526AD290442540082D653 /* Release */,
+				BE2526C82906A90F0082D653 /* Debug */,
+				BE2526C92906A90F0082D653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE2526AE290442540082D653 /* Build configuration list for PBXNativeTarget "day 5" */ = {
+		BE2526CA2906A90F0082D653 /* Build configuration list for PBXNativeTarget "try" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE2526AF290442540082D653 /* Debug */,
-				BE2526B0290442540082D653 /* Release */,
+				BE2526CB2906A90F0082D653 /* Debug */,
+				BE2526CC2906A90F0082D653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BE252697290442520082D653 /* Project object */;
+	rootObject = BE2526B32906A9080082D653 /* Project object */;
 }

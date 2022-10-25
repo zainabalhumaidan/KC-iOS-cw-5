@@ -14,26 +14,33 @@ struct ContentView: View {
 
     var body: some View { VStack{
       
-        List(grname, id: \.self){name in
-          HStack{
-            Text(name)
-                .font(.headline)
-                .fontWeight(.semibold)
-                .foregroundColor(Color.black)
-        
-            
-                Spacer()
-            Image(name)
-                .resizable()
-                .scaledToFit()
-                .frame(width: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)
-            
-            
-            
-            
+        List{
+           ForEach(grname, id: \.self){name in
+                HStack{
+                    Text(name)
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color.black)
+                    
+                    Spacer()
+                    Image(name)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)
+                    
+                
+               
+                    
+                }
                 
             }
+            
+           .onDelete(perform: removeRows)
         }
+        
+      
+            
+           
             Spacer()
         HStack{
             Button(action: { grname.append(list)
@@ -42,10 +49,10 @@ struct ContentView: View {
                 Image("plus")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 80, height: 100.0)
+                    .frame(width: 70, height: 100.0)
             })
             TextField("ur item", text: $list)
-                .frame(width: 150, height:60)
+                .frame(width: 140, height:60)
             Button(action: {
                 grname.remove(at: 0)
                 
@@ -53,27 +60,32 @@ struct ContentView: View {
                 Image("minus")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 80, height: 100.0)
+                    .frame(width: 70, height: 100.0)
             })
            
         
             Button(action: {
-                grname.append( grname.randomElement() ??  "dary")
+                grname.append( grname.randomElement() ??  "Dariy")
 
                 
             }, label: {
                 Image("info")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 80, height: 100.0)
+                    .frame(width: 70, height: 100.0)
+                
                 
             })
            
           
-            
+        
         }
-           
+   
         }
+        }
+    func removeRows(at offsets: IndexSet){
+        grname.remove(atOffsets: offsets)
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -82,4 +94,4 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-}
+
